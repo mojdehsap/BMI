@@ -1,0 +1,95 @@
+body {
+  background-image: url(./foto/upplyst-wandleuchte-led-herz-rosa__0716265_pe730770_s5.jpg);
+
+  background-repeat: no-repeat;
+}
+#weight,
+#height,
+#weight2,
+#height2,
+#alt,
+#age {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin: 1.5rem;
+  color: #8b008b;
+}
+input {
+  border-radius: 10px;
+  box-shadow: 3px 2px 3px black;
+  background-color: #f0fff0;
+}
+button {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #8b008b;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 1.5rem;
+  padding: 1rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+
+  box-shadow: 3px 2px 3px black;
+}
+#bmi {
+  font-size: 25px;
+
+  border: 6px solid #8b008b;
+  height: 3rem;
+  width: 4rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border-radius: 10px;
+  box-shadow: 3px 2px 3px black;
+  padding-top: 1rem;
+}
+div {
+  margin-top: 6rem;
+  margin-left: 20rem;
+  border: 4px double rgb(17, 17, 65);
+  width: 40rem;
+  height: 49rem;
+  padding-left: 0.5rem;
+  background-image: url(./foto/upplyst-wandleuchte-led-herz-rosa__0716265_pe730770_s5.jpg);
+  box-shadow: 3px 2px 3px rgb(184, 53, 184);
+  border-radius: 0 0 10rem;
+  transition: 2s;
+
+}
+
+#nachricht {
+  margin: 0 auto;
+  background-color: #8b008b;
+  border: 1px solid;
+  width: 15rem;
+  height: 3rem;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 30px;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 3px 2px 3px black;
+}
+h1 {
+  text-align: center;
+  color: #8b008b;
+}
+button:hover {
+  background-color:#b43eb4;
+  transform: scale(1.5);
+
+}
+
+@media screen and (max-width: 820px) {
+    
+    
+  div {
+    margin-left: 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  div {
+    margin-left: 15;
+  }
+}

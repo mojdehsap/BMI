@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>BMI Rechner</h1>
+      <label for="age" id="alt">Gibt bitte deine Alter ein:</label>
+      <input
+        id="age"
+        type="number"
+        placeholder="gibt bitte deine Alter ein "
+        value="0"
+      />
+      <br />
+      <label for="height" id="height2">Gibt bitte deine Körpergröße ein:</label>
+      <input
+        id="height"
+        type="number"
+        placeholder="gibt bitte deine Körpergröße ein "
+        value="0.0"
+      />
+      <br />
+      <label for="weight" id="weight2">Gibt bitte deine Gewicht ein:</label>
+      <input
+        id="weight"
+        type="number"
+        placeholder="gibt bitte deine Gewicht ein "
+        value="0"
+      />
+
+      <br />
+      <button onclick="bmiRechner()">Berechne deine BMI</button>
+      <p id="bmi"></p>
+      <p id="nachricht"></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
