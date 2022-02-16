@@ -47,7 +47,7 @@ button {
 div {
   margin-top: 6rem;
   margin-left: 20rem;
-  border: 4px double rgb(17, 17, 65);
+  border: 4px double rgba(17, 17, 65, 0.274);
   width: 40rem;
   height: 49rem;
   padding-left: 0.5rem;
@@ -55,7 +55,6 @@ div {
   box-shadow: 3px 2px 3px rgb(184, 53, 184);
   border-radius: 0 0 10rem;
   transition: 2s;
-
 }
 
 #nachricht {
@@ -76,14 +75,11 @@ h1 {
   color: #8b008b;
 }
 button:hover {
-  background-color:#b43eb4;
+  background-color: #b43eb4;
   transform: scale(1.5);
-
 }
 
 @media screen and (max-width: 820px) {
-    
-    
   div {
     margin-left: 2rem;
   }
